@@ -1,0 +1,101 @@
+:root{
+    --color-blue:rgb(42, 127, 255);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(/img/James_and_Bob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.container form{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.container input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#senha{
+    padding-left: 10px;
+}
+
+#email{
+    padding-left: 10px;
+}
+
+.botoes{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.botoes button{
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: white;
+}
+
+#botao-enviar{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(42, 127, 255);
+    margin-top: 10px;
+    color: white;
+}
+
+:any-link{
+    color: var(--color-blue);
+}
+
+h2{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 70px;
+}
+
+#escolha{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 70px;
+} 
