@@ -7,7 +7,7 @@
     margin: 0px;
 }
 body{
-    background-image: url(./img/James_and_Bob.jpg);
+    background: url(./img/James_and_Bob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,4 +100,5 @@ h2{
     margin-left: 70px;
 
 } 
+
 
